@@ -3,6 +3,8 @@ set (TARGET "IsometricEngine")
 set (CMAKE_CXX_STANDARD 11)
 set (CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake_modules/")
 
+
+
 cmake_minimum_required(VERSION 3.9)
 
 if ( UNIX )
