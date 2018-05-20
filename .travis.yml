@@ -35,6 +35,7 @@ script:
   - if [[ "${C_COMPILER}" != "" ]]; then export CC=${COMPILER}; fi
   - cmake --build .
   - cppcheck --force --quiet --error-exitcode=1 .
+  - ./build_doxygen.sh
 
 addons:
   apt:
@@ -47,4 +48,56 @@ addons:
       - libsdl2-ttf-dev
       - cppcheck
       - gcc-5
-      - g++-5
+      - g++-
+  
+env:
+  global:
+    - GITHUB_REPO: JimmySnails/IsometricEngine
+    - DOXY_DIR: html  
+      
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  repo: $GITHUB_REPO
+  local_dir: $DOXY_DIR
+  on:
+    branch: master
+      
+      
+      ############################
+      
+      # This will run on Travis' 'new' container-based infrastructure
+sudo: false
+
+# Blacklist
+branches:
+  except:
+    - gh-pages
+
+# Environment variables
+env:
+  global:
+    - GH_REPO_NAME: IsometricEngine
+    - DOXYFILE: $TRAVIS_BUILD_DIR/Doxyfile
+    - GH_REPO_REF: github.com/JimmySnails/IsometricEngine.git
+
+# Install dependencies
+addons:
+  apt:
+    packages:
+      - doxygen
+      - doxygen-doc
+      - doxygen-latex
+      - doxygen-gui
+      - graphviz
+
+# Build your code e.g. by calling make
+script:
+  - make
+
+# Generate and deploy documentation
+after_success:
+  - cd $TRAVIS_BUILD_DIR
+  - chmod +x generateDocumentationAndDeploy.sh
+  - ./generateDocumentationAndDeploy.sh
