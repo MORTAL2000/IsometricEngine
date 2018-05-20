@@ -1,0 +1,9 @@
+Isometric Engine 
+
+v0.1
+- Basic Render Engine
+- Read inputs from SDL Keys
+- Read configuration from resources/settings.json
+- Read tile list from resources/tilelist.json
+- support multiple height levels of tiles
+- convert screen coordinates to iso coordinates with actual textues taken into accoutn
