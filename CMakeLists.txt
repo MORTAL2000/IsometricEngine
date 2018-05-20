@@ -7,12 +7,16 @@ find_package(Doxygen)
 
 # own target for Doxygen builds
 if ( DOXYGEN_FOUND )
-  set (DoxyFile ${CMAKE_CURRENT_SOURCE_DIR}/Doxyfile)
+  set (DoxyFile_src ${CMAKE_CURRENT_SOURCE_DIR}/Doxyfile)
+  set (DoxyFile ${CMAKE_CURRENT_BINARY_DIR}/Doxyfile)
+  configure_file(${DoxyFile_src} ${DoxyFile} @ONLY)
+
+  
   message("Doxygen build started.")
   add_custom_target(
     doc
-    COMMAND
-      ${DOXYGEN_EXECUTABLE} ${DoxyFile}
+    COMMAND ${DOXYGEN_EXECUTABLE} ${DoxyFile}
+    WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
     VERBATIM
   )
 endif()
