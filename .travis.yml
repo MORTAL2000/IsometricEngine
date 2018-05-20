@@ -63,7 +63,7 @@ deploy:
   skip_cleanup: true
   github_token: $GH_REPO_TOKEN
   # repo: $GITHUB_REPO
-  local_dir: html
+  # local_dir: html
   verbose: true
   on:
     condition: $COMPILER = "g++-5"
