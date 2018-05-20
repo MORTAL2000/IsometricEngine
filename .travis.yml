@@ -48,7 +48,7 @@ addons:
       - libsdl2-ttf-dev
       - cppcheck
       - gcc-5
-      - g++-
+      - g++-5
       - doxygen
       - graphviz
 
