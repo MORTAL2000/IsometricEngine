@@ -35,7 +35,7 @@ script:
   - if [[ "${C_COMPILER}" != "" ]]; then export CC=${COMPILER}; fi
   - cmake --build .
   - cppcheck --force --quiet --error-exitcode=1 .
-  - if [ "$TRAVIS_BRANCH" = "test" -o "$COMPILER" = "g++-5" ]; then cmake --build . --target doc; fi
+  - if [ "$TRAVIS_BRANCH" = "test" -a "$COMPILER" = "g++-5" ]; then cmake --build . --target doc; fi
 
 addons:
   apt:
@@ -63,5 +63,7 @@ deploy:
   github_token: $GH_REPO_TOKEN
   # repo: $GITHUB_REPO
   local_dir: html
+  verbose: true
   on:
+    condition: $COMPILER = "g++-5"
     branch: test
