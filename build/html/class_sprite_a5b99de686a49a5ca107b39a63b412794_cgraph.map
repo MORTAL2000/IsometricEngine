@@ -1,0 +1,8 @@
+<map id="Sprite::render" name="Sprite::render">
+<area shape="rect" id="node2" href="$class_resources.html#a06ea939a92b7e7e9116c9583675ea930" title="Resources::getTileSize" alt="" coords="181,5,339,32"/>
+<area shape="rect" id="node3" href="$class_resources.html#a0fac0c2a1434895b320977fc7620ca61" title="Resources::getZoomLevel" alt="" coords="173,56,347,83"/>
+<area shape="rect" id="node4" href="$class_resources.html#ab473b482c218f7e3bc4357e5884b8724" title="Resources::convertIsoToScreen\lCoordinates" alt="" coords="155,158,365,199"/>
+<area shape="rect" id="node6" href="$class_point.html#a0b82a4aa9614c11854abc507d89a70a9" title="Point::getX" alt="" coords="429,111,515,137"/>
+<area shape="rect" id="node7" href="$class_point.html#a3770f321c49dfe7ca463900fddc2e2bc" title="Point::getY" alt="" coords="429,220,515,247"/>
+<area shape="rect" id="node5" href="$class_point.html#af7bfaa56576446e182d7eba59bfb6bca" title="Point::getHeight" alt="" coords="414,165,530,192"/>
+</map>

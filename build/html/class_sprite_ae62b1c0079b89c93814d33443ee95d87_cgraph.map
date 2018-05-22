@@ -1,0 +1,10 @@
+<map id="Sprite::Sprite" name="Sprite::Sprite">
+<area shape="rect" id="node2" href="$class_resources.html#aa14c4469e11dbb66a8a1ca48141d7f3f" title="Resources::getRenderer" alt="" coords="175,5,339,32"/>
+<area shape="rect" id="node3" href="$class_resources.html#ac0ea21ecf9d366020f02bb66202a07cb" title="Resources::getWindow" alt="" coords="178,56,337,83"/>
+<area shape="rect" id="node4" href="$class_resources.html#ab473b482c218f7e3bc4357e5884b8724" title="Resources::convertIsoToScreen\lCoordinates" alt="" coords="152,107,363,149"/>
+<area shape="rect" id="node8" href="$class_texture_manager.html#a81a2f2ac1876be84e0a0a472199679d5" title="Retrieves Instance of Singleton class Texture Manager. " alt="" coords="170,173,345,200"/>
+<area shape="rect" id="node9" href="$class_texture_manager.html#acad8a193d8b88c98e0db42debe8fac38" title="TextureManager::getTexture" alt="" coords="164,224,351,251"/>
+<area shape="rect" id="node5" href="$class_point.html#af7bfaa56576446e182d7eba59bfb6bca" title="Point::getHeight" alt="" coords="411,64,527,91"/>
+<area shape="rect" id="node6" href="$class_point.html#a0b82a4aa9614c11854abc507d89a70a9" title="Point::getX" alt="" coords="426,115,513,141"/>
+<area shape="rect" id="node7" href="$class_point.html#a3770f321c49dfe7ca463900fddc2e2bc" title="Point::getY" alt="" coords="426,165,513,192"/>
+</map>

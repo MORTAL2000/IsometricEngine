@@ -1,0 +1,14 @@
+<map id="Resources::convertScreenToIsoCoordinates" name="Resources::convertScreenToIsoCoordinates">
+<area shape="rect" id="node2" href="$class_engine.html#a0c2d248b9b6a80b0e5e8a7ae8c5f5d1f" title="Retrieves Instance of Singleton class Texture Manager. " alt="" coords="236,183,356,209"/>
+<area shape="rect" id="node3" href="$class_engine.html#aa01523e5a19374f12630d4dfb44d5cf7" title="Engine::findCellAt" alt="" coords="233,233,359,260"/>
+<area shape="rect" id="node4" href="$classvector_matrix.html#a9ee09623d96732abab7e12fe8aaaf6d7" title="vectorMatrix::getCell" alt="" coords="425,5,567,32"/>
+<area shape="rect" id="node5" href="$class_cell.html#ab4686539afe23cf38f9e6b980a46bcc1" title="get Sprite get the Sprite* object for this cell " alt="" coords="443,56,549,83"/>
+<area shape="rect" id="node6" href="$class_sprite.html#a794723d66bc266e6e0836a1b2252810e" title="Sprite::textureInformation" alt="" coords="411,107,581,133"/>
+<area shape="rect" id="node7" href="$class_point.html#a0b82a4aa9614c11854abc507d89a70a9" title="Point::getX" alt="" coords="453,157,539,184"/>
+<area shape="rect" id="node8" href="$class_point.html#a3770f321c49dfe7ca463900fddc2e2bc" title="Point::getY" alt="" coords="453,208,539,235"/>
+<area shape="rect" id="node9" href="$class_texture_manager.html#a81a2f2ac1876be84e0a0a472199679d5" title="Retrieves Instance of Singleton class Texture Manager. " alt="" coords="409,259,583,285"/>
+<area shape="rect" id="node10" href="$class_texture_manager.html#a43a23083981d86f72ff65ac64f5a4411" title="TextureManager::GetPixel\lColor" alt="" coords="409,310,583,351"/>
+<area shape="rect" id="node11" href="$class_cell.html#a9aed5d770b97b782a7e58ff46f755aed" title="get Tile ID Retrieves the current Tile ID of this map cell " alt="" coords="443,376,549,403"/>
+<area shape="rect" id="node12" href="$class_point.html#af8ea174dbd8165ab8020276cbe2072d9" title="Point::getZ" alt="" coords="453,427,539,453"/>
+<area shape="rect" id="node13" href="$class_cell.html#ab936853c20c11bf67f2cadbfcb629929" title="get iso coordinates of this cell " alt="" coords="425,477,567,504"/>
+</map>

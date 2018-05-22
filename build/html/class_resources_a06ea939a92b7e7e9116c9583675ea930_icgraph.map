@@ -1,0 +1,6 @@
+<map id="Resources::getTileSize" name="Resources::getTileSize">
+<area shape="rect" id="node2" href="$class_sprite.html#a5b99de686a49a5ca107b39a63b412794" title="Sprite::render" alt="" coords="214,5,314,32"/>
+<area shape="rect" id="node3" href="$class_cell.html#a73f6a655d92ae5aa275319fc28570815" title="add the cell to the renderer " alt="" coords="363,5,475,32"/>
+<area shape="rect" id="node4" href="$class_engine.html#a7960743aefd62e846e7f3cd92c18bc73" title="Engine::render" alt="" coords="523,5,629,32"/>
+<area shape="rect" id="node5" href="$game_8cxx.html#a2c3f6775325c30275d11c6abee2db6a0" title="main" alt="" coords="677,5,728,32"/>
+</map>

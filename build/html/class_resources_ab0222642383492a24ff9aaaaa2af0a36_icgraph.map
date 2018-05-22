@@ -1,0 +1,5 @@
+<map id="Resources::setTerrainEditMode" name="Resources::setTerrainEditMode">
+<area shape="rect" id="node2" href="$class_engine.html#a2f7aabd716855ca5b14af0c9f6cdbe1b" title="Engine::increaseHeight" alt="" coords="264,5,421,32"/>
+<area shape="rect" id="node4" href="$class_engine.html#af67c41549c288b4c7936531afc2f3a52" title="Engine::decreaseHeight" alt="" coords="262,56,423,83"/>
+<area shape="rect" id="node3" href="$game_8cxx.html#a2c3f6775325c30275d11c6abee2db6a0" title="main" alt="" coords="472,31,523,57"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="Cell::renderCell" name="Cell::renderCell">
+<area shape="rect" id="node2" href="$class_sprite.html#a79a3c2ae0711d489d258e931ec728355" title="Sprite::setTileIsoCoordinates" alt="" coords="166,56,357,83"/>
+<area shape="rect" id="node3" href="$class_sprite.html#a5b99de686a49a5ca107b39a63b412794" title="Sprite::render" alt="" coords="211,107,311,133"/>
+<area shape="rect" id="node4" href="$class_resources.html#a06ea939a92b7e7e9116c9583675ea930" title="Resources::getTileSize" alt="" coords="431,5,590,32"/>
+<area shape="rect" id="node5" href="$class_resources.html#a0fac0c2a1434895b320977fc7620ca61" title="Resources::getZoomLevel" alt="" coords="423,56,598,83"/>
+<area shape="rect" id="node6" href="$class_resources.html#ab473b482c218f7e3bc4357e5884b8724" title="Resources::convertIsoToScreen\lCoordinates" alt="" coords="405,158,616,199"/>
+<area shape="rect" id="node8" href="$class_point.html#a0b82a4aa9614c11854abc507d89a70a9" title="Point::getX" alt="" coords="679,111,766,137"/>
+<area shape="rect" id="node9" href="$class_point.html#a3770f321c49dfe7ca463900fddc2e2bc" title="Point::getY" alt="" coords="679,220,766,247"/>
+<area shape="rect" id="node7" href="$class_point.html#af7bfaa56576446e182d7eba59bfb6bca" title="Point::getHeight" alt="" coords="665,165,781,192"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="TextureManager::Instance" name="TextureManager::Instance">
+<area shape="rect" id="node2" href="$class_engine.html#aa01523e5a19374f12630d4dfb44d5cf7" title="Engine::findCellAt" alt="" coords="242,12,369,39"/>
+<area shape="rect" id="node5" href="$class_sprite.html#ae62b1c0079b89c93814d33443ee95d87" title="Sprite::Sprite" alt="" coords="256,63,355,89"/>
+<area shape="rect" id="node6" href="$class_sprite.html#a4a1ee6e3510624e404be86c5eada22ff" title="Sprite::changeTexture" alt="" coords="230,113,381,140"/>
+<area shape="rect" id="node3" href="$class_resources.html#a26729904dd9b4862ec1f608c303e8560" title="Resources::convertScreen\lToIsoCoordinates" alt="" coords="430,5,607,46"/>
+<area shape="rect" id="node4" href="$game_8cxx.html#a2c3f6775325c30275d11c6abee2db6a0" title="main" alt="" coords="656,12,707,39"/>
+<area shape="rect" id="node7" href="$class_cell.html#abe73f82ff52515781f01f2534064cb0e" title="set Tile ID Change the texture of the map cell to a specific tile id " alt="" coords="465,113,572,140"/>
+</map>

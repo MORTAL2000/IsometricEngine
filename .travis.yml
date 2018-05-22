@@ -1,0 +1,70 @@
+language: cpp
+dist: trusty
+sudo: required
+group: edge
+
+env:
+  global:
+    - GITHUB_REPO: JimmySnails/IsometricEngine
+
+matrix:
+  include:
+
+  # gcc build
+  - os: linux
+    compiler: gcc
+    env: 
+      - COMPILER=g++-5
+      - C_COMPILER=gcc-5
+
+  # clang build
+  - os: linux
+    compiler: clang
+    env:
+      - COMPILER=clang++-5.0
+
+
+before_script:
+  - mkdir build
+  - cd build
+  - cmake ..
+
+script:
+  # make sure CXX is correctly set
+  - sudo unlink /usr/bin/gcc && sudo ln -s /usr/bin/gcc-5 /usr/bin/gcc
+  - sudo unlink /usr/bin/g++ && sudo ln -s /usr/bin/g++-5 /usr/bin/g++
+  - gcc --version
+  - g++ --version
+  - if [[ "${COMPILER}" != "" ]]; then export CXX=${COMPILER}; fi
+  - if [[ "${C_COMPILER}" != "" ]]; then export CC=${COMPILER}; fi
+  - cmake --build .
+  - cppcheck --force --quiet --error-exitcode=1 .
+  - if [ "$TRAVIS_BRANCH" = "master" -a "$COMPILER" = "g++-5" ]; then cmake --build . --target doc; fi
+
+addons:
+  apt:
+    sources: 
+      - ubuntu-toolchain-r-test
+    packages:
+      - cmake
+      - libsdl2-dev
+      - libsdl2-image-dev
+      - libsdl2-ttf-dev
+      - cppcheck
+      - gcc-5
+      - g++-5
+      - doxygen
+      - graphviz
+
+  
+      
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GH_REPO_TOKEN
+  # repo: $GITHUB_REPO
+  # local_dir: html
+  verbose: true
+  on:
+    condition: $COMPILER = "g++-5"
+    branch: master

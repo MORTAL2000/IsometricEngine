@@ -1,0 +1,4 @@
+/home/travis/build/JimmySnails/IsometricEngine/build/CMakeFiles/edit_cache.dir
+/home/travis/build/JimmySnails/IsometricEngine/build/CMakeFiles/IsometricEngine.dir
+/home/travis/build/JimmySnails/IsometricEngine/build/CMakeFiles/rebuild_cache.dir
+/home/travis/build/JimmySnails/IsometricEngine/build/CMakeFiles/doc.dir

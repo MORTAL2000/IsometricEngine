@@ -1,0 +1,5 @@
+<map id="Cell::setTileID" name="Cell::setTileID">
+<area shape="rect" id="node2" href="$class_sprite.html#a4a1ee6e3510624e404be86c5eada22ff" title="Sprite::changeTexture" alt="" coords="161,31,311,57"/>
+<area shape="rect" id="node3" href="$class_texture_manager.html#a81a2f2ac1876be84e0a0a472199679d5" title="Retrieves Instance of Singleton class Texture Manager. " alt="" coords="366,5,541,32"/>
+<area shape="rect" id="node4" href="$class_texture_manager.html#acad8a193d8b88c98e0db42debe8fac38" title="TextureManager::getTexture" alt="" coords="360,56,547,83"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Resources::getZoomLevel" name="Resources::getZoomLevel">
+<area shape="rect" id="node2" href="$class_engine.html#a99f25eae9ce46785a28c5be9b24219b2" title="Engine::centerScreenOnPoint" alt="" coords="229,56,424,83"/>
+<area shape="rect" id="node3" href="$class_engine.html#ad002ad38cdd087916daa80887d5c0c56" title="Engine::increaseZoomLevel" alt="" coords="474,5,657,32"/>
+<area shape="rect" id="node5" href="$class_engine.html#a3bd1a78cb1b0c379463a587c840b5cda" title="Engine::decreaseZoomLevel" alt="" coords="472,107,659,133"/>
+<area shape="rect" id="node6" href="$class_sprite.html#a5b99de686a49a5ca107b39a63b412794" title="Sprite::render" alt="" coords="277,157,377,184"/>
+<area shape="rect" id="node4" href="$game_8cxx.html#a2c3f6775325c30275d11c6abee2db6a0" title="main" alt="" coords="861,81,912,108"/>
+<area shape="rect" id="node7" href="$class_cell.html#a73f6a655d92ae5aa275319fc28570815" title="add the cell to the renderer " alt="" coords="509,157,621,184"/>
+<area shape="rect" id="node8" href="$class_engine.html#a7960743aefd62e846e7f3cd92c18bc73" title="Engine::render" alt="" coords="707,157,813,184"/>
+</map>

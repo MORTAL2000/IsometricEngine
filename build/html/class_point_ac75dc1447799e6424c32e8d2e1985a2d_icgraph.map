@@ -1,0 +1,4 @@
+<map id="Point::setHeight" name="Point::setHeight">
+<area shape="rect" id="node2" href="$class_cell.html#a6d860e95e65aef2d2bae3628f425dc9d" title="Increase Height Increases the height of this map cell and checks which tileID must be drawn for each ..." alt="" coords="173,5,313,32"/>
+<area shape="rect" id="node3" href="$class_cell.html#a82cf9c80aaadcbc2c73e65021ae92229" title="Decrease Height Decreases the height of this map cell and checks which tileID must be drawn for each ..." alt="" coords="171,56,315,83"/>
+</map>

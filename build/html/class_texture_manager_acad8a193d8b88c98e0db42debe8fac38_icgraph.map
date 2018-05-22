@@ -1,0 +1,5 @@
+<map id="TextureManager::getTexture" name="TextureManager::getTexture">
+<area shape="rect" id="node2" href="$class_sprite.html#ae62b1c0079b89c93814d33443ee95d87" title="Sprite::Sprite" alt="" coords="267,5,365,32"/>
+<area shape="rect" id="node3" href="$class_sprite.html#a4a1ee6e3510624e404be86c5eada22ff" title="Sprite::changeTexture" alt="" coords="241,56,391,83"/>
+<area shape="rect" id="node4" href="$class_cell.html#abe73f82ff52515781f01f2534064cb0e" title="set Tile ID Change the texture of the map cell to a specific tile id " alt="" coords="440,56,547,83"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="Point::getHeight" name="Point::getHeight">
+<area shape="rect" id="node2" href="$class_resources.html#ab473b482c218f7e3bc4357e5884b8724" title="Resources::convertIsoToScreen\lCoordinates" alt="" coords="171,99,381,141"/>
+<area shape="rect" id="node11" href="$class_cell.html#a6d860e95e65aef2d2bae3628f425dc9d" title="Increase Height Increases the height of this map cell and checks which tileID must be drawn for each ..." alt="" coords="206,165,346,192"/>
+<area shape="rect" id="node12" href="$class_cell.html#a82cf9c80aaadcbc2c73e65021ae92229" title="Decrease Height Decreases the height of this map cell and checks which tileID must be drawn for each ..." alt="" coords="204,216,348,243"/>
+<area shape="rect" id="node3" href="$class_engine.html#a99f25eae9ce46785a28c5be9b24219b2" title="Engine::centerScreenOnPoint" alt="" coords="579,56,773,83"/>
+<area shape="rect" id="node7" href="$class_sprite.html#ae62b1c0079b89c93814d33443ee95d87" title="Sprite::Sprite" alt="" coords="431,107,529,133"/>
+<area shape="rect" id="node8" href="$class_sprite.html#a5b99de686a49a5ca107b39a63b412794" title="Sprite::render" alt="" coords="430,157,530,184"/>
+<area shape="rect" id="node4" href="$class_engine.html#ad002ad38cdd087916daa80887d5c0c56" title="Engine::increaseZoomLevel" alt="" coords="823,5,1006,32"/>
+<area shape="rect" id="node5" href="$game_8cxx.html#a2c3f6775325c30275d11c6abee2db6a0" title="main" alt="" coords="1056,81,1107,108"/>
+<area shape="rect" id="node6" href="$class_engine.html#a3bd1a78cb1b0c379463a587c840b5cda" title="Engine::decreaseZoomLevel" alt="" coords="821,107,1008,133"/>
+<area shape="rect" id="node9" href="$class_cell.html#a73f6a655d92ae5aa275319fc28570815" title="add the cell to the renderer " alt="" coords="620,157,732,184"/>
+<area shape="rect" id="node10" href="$class_engine.html#a7960743aefd62e846e7f3cd92c18bc73" title="Engine::render" alt="" coords="861,157,968,184"/>
+</map>

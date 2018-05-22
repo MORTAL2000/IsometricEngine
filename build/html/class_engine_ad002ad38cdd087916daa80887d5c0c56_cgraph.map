@@ -1,0 +1,11 @@
+<map id="Engine::increaseZoomLevel" name="Engine::increaseZoomLevel">
+<area shape="rect" id="node2" href="$class_resources.html#a0fac0c2a1434895b320977fc7620ca61" title="Resources::getZoomLevel" alt="" coords="498,5,673,32"/>
+<area shape="rect" id="node3" href="$class_resources.html#a3363f6ea93d4dd7a86eec10289371cf0" title="Resources::setZoomLevel" alt="" coords="247,165,422,192"/>
+<area shape="rect" id="node4" href="$class_engine.html#a99f25eae9ce46785a28c5be9b24219b2" title="Engine::centerScreenOnPoint" alt="" coords="237,115,432,141"/>
+<area shape="rect" id="node5" href="$class_engine.html#afc2adea87128e181e95f7e286afa61d8" title="Engine::checkBoundaries" alt="" coords="500,224,671,251"/>
+<area shape="rect" id="node6" href="$class_point.html#a0b82a4aa9614c11854abc507d89a70a9" title="Point::getX" alt="" coords="754,224,841,251"/>
+<area shape="rect" id="node7" href="$class_point.html#a3770f321c49dfe7ca463900fddc2e2bc" title="Point::getY" alt="" coords="754,140,841,167"/>
+<area shape="rect" id="node8" href="$class_resources.html#ab473b482c218f7e3bc4357e5884b8724" title="Resources::convertIsoToScreen\lCoordinates" alt="" coords="480,107,691,149"/>
+<area shape="rect" id="node10" href="$class_resources.html#aeee3186e1df38f9f5e24b453bad642c4" title="Resources::setCameraOffset" alt="" coords="489,173,682,200"/>
+<area shape="rect" id="node9" href="$class_point.html#af7bfaa56576446e182d7eba59bfb6bca" title="Point::getHeight" alt="" coords="739,89,855,116"/>
+</map>
